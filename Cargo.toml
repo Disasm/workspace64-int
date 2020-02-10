@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "riscv-rt",
+    "k210-example",
+]
+
+[patch.crates-io]
+riscv-rt = { path = "riscv-rt" }
